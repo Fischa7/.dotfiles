@@ -11,7 +11,7 @@ then
     PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 fi
 export PATH
-export PATH=$PATH:/home/Fischa/tools
+export PATH=$PATH:/home/ez/tools
 
 if [ -f `which powerline-daemon` ]; then
     powerline-daemon -q
